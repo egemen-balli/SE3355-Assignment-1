@@ -11,7 +11,7 @@ function Slider() {
 
     const fetchMainSlider = async () => {
         try {
-            const response = await fetch("http://localhost:3000/api/main-slider");
+            const response = await fetch("https://se3355-assignment-1-ago1.onrender.com/api/main-slider");
             const data = await response.json();
             const sliderTrack = document.getElementById("main-slider");
             if (!sliderTrack) return;
