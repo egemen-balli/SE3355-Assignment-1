@@ -4,7 +4,7 @@ function SpecialOffers() {
 
     const fetchSpecialOffers = async () => {
         try {
-            const res = await fetch("http://localhost:3000/api/special-offers");
+            const res = await fetch("https://se3355-assignment-1-ago1.onrender.com");
             const data = await res.json();
             const container = document.getElementById("special-offers");
             if (!container) return;
