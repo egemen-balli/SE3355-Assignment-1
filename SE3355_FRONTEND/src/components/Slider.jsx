@@ -128,7 +128,7 @@ function Slider() {
 
     const fetchElectronicsDeals = async () => {
         try {
-            const res = await fetch("http://localhost:3000/api/electronics");
+            const res = await fetch("https://se3355-assignment-1-ago1.onrender.com");
             const data = await res.json();
             const container = document.getElementById("electronics-slider");
             if (!container) return;
