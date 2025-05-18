@@ -8,7 +8,7 @@ function Recommended() {
 
     const fetchRecommended = async () => {
         try {
-            const response = await fetch("http://localhost:3000/api/carousel");
+            const response = await fetch("https://se3355-assignment-1-ago1.onrender.com/api/carousel");
             const data = await response.json();
             renderRecommended(data);
         } catch (err) {
