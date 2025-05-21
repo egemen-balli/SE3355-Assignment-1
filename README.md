@@ -2,7 +2,7 @@
 
 ## Deployed at
 
-https://se3355-assignment-1-ago1.onrender.com/
+[https://egemen-balli.github.io/SE3355-Assignment-1/](https://egemen-balli.github.io/SE3355-Assignment-1/)
 
 ## Overview
 
